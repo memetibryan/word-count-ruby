@@ -1,10 +1,10 @@
 require('rspec')
 require('pry')
 require('descriptive_statistics')
-  require('allergy')
+  require('word_count')
 
-  describe('allergy') do
-    it("returns eggs is a user inputs 1") do
-    expect(128.allergy()).==("cats")
+  describe('word_count') do
+    it("returns the number of times a word apppears in a sentence") do
+    expect("bryan is the son of bryan".word_count()).==(2)
     end
   end

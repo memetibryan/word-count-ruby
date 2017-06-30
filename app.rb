@@ -1,13 +1,17 @@
 require('sinatra')
   require('sinatra/reloader')
-  require('./lib/allergy')
   also_reload('lib/**/*.rb')
+  require('pry')
 
   get('/') do
     erb(:index)
   end
 
-  get('/index') do
-    @allergic_foods = params.fetch("find").allergy()
-    erb(:allergic_foods)
+  # get('/word_numbers') do
+  #   erb(:index)
+  # end
+
+  get('/word_numbers') do
+    @numbers = params.fetch('count').word_count()
+    erb(:word_numbers)
   end
