@@ -5,6 +5,6 @@ require('descriptive_statistics')
 
   describe('word_count') do
     it("returns the number of times a word apppears in a sentence") do
-    expect("bryan is the son of bryan".word_count()).==(2)
+    expect("my dog is bitten by his dog".word_count()).to(eql("my"=>1, "dog"=>2, "is"=>1, "bitten"=>1, "by"=>1, "his"=>1))
     end
   end
