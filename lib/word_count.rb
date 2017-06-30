@@ -5,6 +5,7 @@ class String
 	string1 = self.split
 	scope = string1.length
 	split_words = []
+	word = "boy"
 	i = 0
 
 	while i < scope
@@ -17,16 +18,23 @@ class String
 	# dup = split_words.select{|element| string1.count(element) > 1 }
  #    numb.push dup.uniq.count
  #    return dup.uniq
- return bank
-end
 
-def search_string
-	var = word_count
-	word = self
-	if var.include?(word)
-	return var.fetch(word)			
+
+ if bank.include?(word)
+	   return bank.fetch(word)
 		else
 			return "no result"
 	end
+ # return bank
+end
+
+def search_string
+	# var = word_count
+	# word = self
+	# if var.include?(word)
+	#    return var.fetch(var.include?(word).key)
+	# 	else
+	# 		return "no result"
+	# end
 	end
 end
