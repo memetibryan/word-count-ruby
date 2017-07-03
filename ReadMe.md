@@ -1,4 +1,4 @@
-#WORD COUNT
+=WORD COUNT
 The sole purpose of this project was to create a website that uses a method to return how frequently a word appears in a given string. The user should be able to input both the word and the string of words to check. You’ll need to account for case sensitivity (“HI” isn’t the same as “hi”) and punctuation (“hi” isn’t the same as “hi!”).
 
 Example:
