@@ -14,7 +14,7 @@ class String
 		i += 1
 	end
 
-    hash = @@split_words.each_with_object(Hash.new(0)) { |word,counts| counts[word] += 1 }
+    @@hash = @@split_words.each_with_object(Hash.new(0)) { |word,counts| counts[word] += 1 }
 
 	# dup = split_words.select{|element| string1.count(element) > 1 }
  #    numb.push dup.uniq.count
@@ -24,8 +24,8 @@ end
 
 def search_string
 	
- if @@split_words.include? (self)
-	        return "success"
+ if @@hash.keys.include? (self)
+	        return @@hash.fetch(self)
 		else
 			return "no result"
 	end
