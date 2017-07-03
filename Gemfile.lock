@@ -33,7 +33,6 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
-    rake (12.0.0)
     rspec (3.6.0)
       rspec-core (~> 3.6.0)
       rspec-expectations (~> 3.6.0)
@@ -71,7 +70,6 @@ DEPENDENCIES
   capybara
   descriptive_statistics
   pry
-  rake
   rspec
   sinatra
   sinatra-contrib
