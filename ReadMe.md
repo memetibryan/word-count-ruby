@@ -1,7 +1,7 @@
 # WORD COUNT
 The sole purpose of this project was to create a website that uses a method to return how frequently a word appears in a given string. The user should be able to input both the word and the string of words to check. You’ll need to account for case sensitivity (“HI” isn’t the same as “hi”) and punctuation (“hi” isn’t the same as “hi!”).
 
-Example:
+**Example:**
 
 Word Input: “peck”
 String Input: “If Peter Piper picked a peck of pickled peppers, where’s the peck of pickled peppers Peter Piper picked?”
@@ -21,7 +21,7 @@ In order try out the website,the users should make sure that he/she has the foll
 
     Bryan Memeti- /all the work/
 
-** LICENSE **
+### LICENSE
 
 MIT License
 
@@ -33,7 +33,7 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-** ACKNOWLEDGEMENT **
+**ACKNOWLEDGEMENT**
 
     -Google search engine for information availed when in need.
     -Moringa School for providing the platform.
