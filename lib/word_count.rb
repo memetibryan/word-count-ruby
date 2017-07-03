@@ -28,13 +28,13 @@ class String
  # return bank
 end
 
-def search_string
-	# var = word_count
-	# word = self
-	# if var.include?(word)
-	#    return var.fetch(var.include?(word).key)
-	# 	else
-	# 		return "no result"
-	# end
-	end
+# def search_string
+# 	# var = word_count
+# 	# word = self
+# 	# if var.include?(word)
+# 	#    return var.fetch(var.include?(word).key)
+# 	# 	else
+# 	# 		return "no result"
+# 	# end
+# 	end
 end

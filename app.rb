@@ -9,6 +9,6 @@ require('sinatra')
 
   get('/numbers') do
     @numbers = params.fetch("count").to_s.word_count()
-    @common = params.fetch("look").to_s.search_string()
+    # @common = params.fetch("look").to_s.search_string()
     erb(:numbers)
   end
