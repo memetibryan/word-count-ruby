@@ -6,7 +6,6 @@ class String
 	scope = string1.length
 	@@split_words = []
 	
-	word_searcher = @@word
 	i = 0
 
 	while i < scope
