@@ -8,7 +8,7 @@ String Input: “If Peter Piper picked a peck of pickled peppers, where’s the 
 Output: 2
 
 ## Setup (Developers)
-If by any chhance you need this code, fork it to your local and run "$ bundle" to install all the gems. And also make sure you have ruby setup in you local machine.
+If by any chhance you need this code, fork it to your local and run **$ bundle** to install all the gems. And also make sure you have ruby setup in you local machine.
 
 ## Setup
 In order try out the website,the users should make sure that he/she has the following:-
