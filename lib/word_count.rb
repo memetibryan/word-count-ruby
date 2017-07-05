@@ -18,9 +18,9 @@ class String
 
     def search_string	
         if @@hash.keys.include? (self)
-	            return @@hash.fetch(self)
-		    else
-		        return "no result"
+	        return @@hash.fetch(self)
+		else
+		    return "no result"
 	    end
     end
 end
