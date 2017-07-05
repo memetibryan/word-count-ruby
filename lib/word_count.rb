@@ -1,5 +1,4 @@
 class String
-
   def word_count
 
 	string1 = self.split
@@ -14,15 +13,9 @@ class String
 	end
 
     @@hash = @@split_words.each_with_object(Hash.new(0)) { |word,counts| counts[word] += 1 }
-
-	# dup = split_words.select{|element| string1.count(element) > 1 }
- #    numb.push dup.uniq.count
- #    return dup.uniq
- # return @@word
 end
 
-def search_string
-	
+def search_string	
  if @@hash.keys.include? (self)
 	        return @@hash.fetch(self)
 		else
